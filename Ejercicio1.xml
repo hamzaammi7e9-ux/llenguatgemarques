@@ -1,4 +1,5 @@
-<pacientes>
+<xml:citas>
+<pacientes >
 
 <paciente>
     <nombre>Pablo</nombre>
@@ -26,4 +27,6 @@
     <fecha>20 de octubre de 2025</fecha>
     <hora>17:30</hora>
 </paciente>
+
 </pacientes>
+</xml:citas>
