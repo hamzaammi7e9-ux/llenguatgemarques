@@ -1,9 +1,10 @@
 <pacientes>
-    
+
 <paciente>
     <nombre>Pablo</nombre>
     <apellidos>Jimenez</apellidos>
     <edad>23</edad>
+    <telefono>642223945</telefono>
     <fecha>29 de septiembre de 2026</fecha>
     <hora>13:00</hora>
 </paciente>
@@ -12,6 +13,7 @@
     <nombre>Marcos</nombre>
     <apellidos>Hernandez</apellidos>
     <edad>31</edad>
+    <telefono>649234015</telefono>
     <fecha>20 de enero de 2025</fecha>
     <hora>10:00</hora>
 </paciente>
@@ -20,6 +22,7 @@
     <nombre>Luis</nombre>
     <apellidos>Gomez</apellidos>
     <edad>19</edad>
+    <telefono>632125271</telefono>
     <fecha>20 de octubre de 2025</fecha>
     <hora>17:30</hora>
 </paciente>
