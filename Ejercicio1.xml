@@ -1,0 +1,24 @@
+<paciente1>
+<nombre>Pablo</hombre>
+<apellidos>Jimenez</apellidos>
+<edad>23</edad>
+<fecha>29 de septiembre de 2026</fecha>
+<hora>13:00</hora>
+</paciente1>
+
+<paciente2>
+<nombre>Marcos</hombre>
+<apellidos>Hernandez</apellidos>
+<edad>31</edad>
+<fecha>20 de enero de 2025</fecha>
+<hora>10:00</hora>
+</paciente2>
+
+<paciente3>
+<nombre>Luis</hombre>
+<apellidos>Gomez</apellidos>
+<edad>19</edad>
+<fecha>20 de octubre de 2025</fecha>
+<hora>17:30</hora>
+</paciente3>
+
