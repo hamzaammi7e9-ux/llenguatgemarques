@@ -1,4 +1,4 @@
-<paciente1>
+<paciente>
 <nombre>Pablo</hombre>
 <apellidos>Jimenez</apellidos>
 <edad>23</edad>
@@ -6,19 +6,19 @@
 <hora>13:00</hora>
 </paciente1>
 
-<paciente2>
+<paciente>
 <nombre>Marcos</hombre>
 <apellidos>Hernandez</apellidos>
 <edad>31</edad>
 <fecha>20 de enero de 2025</fecha>
 <hora>10:00</hora>
-</paciente2>
+</paciente>
 
-<paciente3>
+<paciente>
 <nombre>Luis</hombre>
 <apellidos>Gomez</apellidos>
 <edad>19</edad>
 <fecha>20 de octubre de 2025</fecha>
 <hora>17:30</hora>
-</paciente3>
+</paciente>
 
