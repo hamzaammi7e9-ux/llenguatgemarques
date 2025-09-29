@@ -1,0 +1,21 @@
+<videojuegos>
+    <videjuego>
+        <nombre>Zelda</nombre>
+        <genero>acción y aventura</genero>
+        <desarroladora>Nintendo</desarroladora>
+        <año>1986</año>
+    </videjuego>
+    <videjuego>
+        <nombre>Fifa</nombre>
+        <genero>deportes</genero>
+        <desarroladora>EA Sports</desarroladora>
+        <año>1993</año>
+        <cantidadjugadores>1 o 2</cantidadjugadores>
+    </videjuego>
+    <videjuego>
+        <nombre>LOL</nombre>
+        <genero>combate</genero>
+        <desarroladora>Riot Games</desarroladora>
+        <año>2009</año>
+    </videjuego>
+</videojuegos>

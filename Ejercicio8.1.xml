@@ -1,0 +1,25 @@
+        <gimnasios>
+            <gimnasio>
+                <nombre>El Dor</nombre>
+                <dirección>Avenida Hipotenusa 232</dirección>
+                <propietario>Inuyasha</propietario>
+                <valoración>4,5</valoración>
+            </gimnasio>
+            <gimnasio>
+                <nombre>Aquopolis</nombre>
+                <dirección>Calle Tangente 111</dirección>
+                <propietario>Arthur Connan </propietario>
+            </gimnasio>
+            <gimnasio>
+                <nombre>Muscle Man</nombre>
+                <dirección>Av. Angulo 222</dirección>
+                <activdiades>
+                    <actividad>halterofilia</actividad>
+                    <actividad>crossfit</actividad>
+                    <actividad>natación</actividad>
+                    <actividad>atletismo</actividad>
+                </activdiades>
+                <propietario>Son Goku</propietario>
+                <valoración reseñas="256">3,5</valoración>
+            </gimnasio>
+        </gimnasios>

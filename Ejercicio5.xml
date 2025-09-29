@@ -1,0 +1,23 @@
+<movie>
+    <header>
+        <title>Pierrot le Fou</title>
+        <title lang="en">Pierrot goes wild</title>
+        <lang>French</lang>
+        <year>1965</year>
+        <genre>Drama</genre>
+    </header>
+    <dir>Jean-Luc Godard</dir>
+    <photos>Raoul Coutard</photos>
+    <tech>
+        <color>B&amp;W</color>
+        <format>35mm</format>
+        <time>110mn</time>
+    </tech>
+    <actors>
+        <actor>Anna Karina</actor>
+        <actor>Jean-Paul Belmondo</actor>
+        <actor>Graziella Galvani</actor>
+    </actors>
+    <desc>Pierrot escapes his boring society and travels from Paris to....</desc>
+</movie>
+<!--Comentari-->  

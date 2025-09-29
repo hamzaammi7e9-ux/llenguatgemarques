@@ -1,0 +1,35 @@
+<Ejercicio numero="7">
+
+
+
+<a>
+<casa>
+    <persona>
+        <nombre>Pere Garcia</nombre>
+    </persona>
+    <perro>
+        <nombre>Rufy</nombre>
+    </perro>
+</casa>
+</a>
+
+<b>
+<datos>
+    <persona>
+        <nombre>Pere</nombre>
+        <apellido> Pérez </apellido>
+    </persona>
+    <persona>
+        <apellido2>Garcia</apellido2>
+        <edad>22</edad>
+    </persona>
+</datos>
+</b>
+
+
+
+
+
+
+
+</Ejercicio>

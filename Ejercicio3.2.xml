@@ -1,0 +1,11 @@
+<coche>
+	<marca>Seat</marca>
+	<color>Rojo</color>
+	<matricula>B3456L</matricula>
+	<conductor>Jorge</conductor>
+<conductor>Maria</conductor>
+	<alquilado>
+		<inicio>12/09/2023</inicio>
+		<fin>24/09/2023</fin>
+	</alquilado>
+</coche>
