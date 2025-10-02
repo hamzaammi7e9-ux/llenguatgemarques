@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE matricula SYSTEM "matricula.dtd">
+<matricula>
+    <ciclo>DAM</ciclo>
+    <alumnos>
+        <alumno>1</alumno>
+    </alumnos>
+
+
+</matricula>
