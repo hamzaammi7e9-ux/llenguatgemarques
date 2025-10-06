@@ -1,41 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE trabajo [
-<!ELEMENT trabajo (datos_principales, descripción, conocimientos_requeridos)>
-<!ATTLIST trabajo CVs_inscritos CDATA #REQUIRED>
-<!ATTLIST trabajo cantidad_puestos CDATA #FIXED "3">
-<!ATTLIST trabajo fecha_publicación CDATA #FIXED "27/09/2024">
-<!ELEMENT datos_principales (nombre_trabajo, empresa, ubicación, funcion, nivel_profesional, experiencia, formación_mínima, contrato)>
-<!ELEMENT nombre_trabajo (#PCDATA)>
-<!ELEMENT empresa (#PCDATA)>
-<!ELEMENT ubicación (#PCDATA)>
-<!ATTLIST ubicación residencia CDATA #REQUIRED>
-<!ELEMENT funcion (#PCDATA)>
-<!ELEMENT nivel_profesional (#PCDATA)>
-<!ELEMENT experiencia (#PCDATA)>
-<!ELEMENT formación_mínima (#PCDATA)>
-<!ELEMENT contrato (tipo, salario)>
-<!ELEMENT tipo (#PCDATA)>
-<!ELEMENT salario (#PCDATA)>
-<!ATTLIST salario tipo CDATA #REQUIRED>
-<!ELEMENT descripción (#PCDATA)>
-<!ELEMENT conocimientos_requeridos (conocimiento+)>
-<!ELEMENT conocimiento (#PCDATA)>
-<!ATTLIST conocimiento años CDATA #IMPLIED>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE trabajo [
+    <!ELEMENT trabajo (datos_principales, descripcion, conocimientos_requeridos)>
+    <!ATTLIST trabajo CVs_inscritos CDATA #REQUIRED>
+    <!ATTLIST trabajo cantidad_puestos CDATA #FIXED "3">
+    <!ATTLIST trabajo fecha_publicación CDATA #FIXED "27/09/2024">
+    <!ELEMENT datos_principales (nombre_trabajo, empresa, ubicacion, funcion, nivel_profesional, experiencia, formacion_minima, contrato)>
+    <!ELEMENT nombre_trabajo (#PCDATA)>
+    <!ELEMENT empresa (#PCDATA)>
+    <!ELEMENT ubicacion (#PCDATA)>
+    <!ATTLIST ubicacion residencia CDATA #REQUIRED>
+    <!ELEMENT funcion (#PCDATA)>
+    <!ELEMENT nivel_profesional (#PCDATA)>
+    <!ELEMENT experiencia (#PCDATA)>
+    <!ELEMENT formacion_minima (#PCDATA)>
+    <!ELEMENT contrato (tipo, salario)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT salario (#PCDATA)>
+    <!ATTLIST salario tipo CDATA #REQUIRED>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT conocimientos_requeridos (conocimiento+)>
+    <!ELEMENT conocimiento (#PCDATA)>
+    <!ATTLIST conocimiento años CDATA #IMPLIED>
 ]>
 <trabajo CVs_inscritos="17" cantidad_puestos="3" fecha_publicación="27/09/2024">
     <datos_principales>
         <nombre_trabajo>Programador fullstack .NET y VUE</nombre_trabajo>
         <empresa>Arelance</empresa>
-        <ubicación residencia="España">Teletrabajo</ubicación>
+        <ubicacion residencia="España">Teletrabajo</ubicacion>
         <funcion>Programador</funcion>
         <nivel_profesional>Empleado</nivel_profesional>
         <experiencia>3 años</experiencia>
-        <formación_mínima >FP2/Grado Superior</formación_mínima>
+        <formacion_minima>FP2/Grado Superior</formacion_minima>
         <contrato>
             <tipo>Indefinido</tipo>
             <salario tipo="bruto">30.000 a 36.000€</salario>
         </contrato>
     </datos_principales>
-    <descripción>En Arelance sabemos que las personas...</descripción>
+    <descripcion>En Arelance sabemos que las personas...</descripcion>
     <conocimientos_requeridos>
         <conocimiento años="3">Desarrollo Front end con Vue 3 y Type script</conocimiento>
         <conocimiento años="3">Desarrollo backend con .NET (v. 5+)</conocimiento>
