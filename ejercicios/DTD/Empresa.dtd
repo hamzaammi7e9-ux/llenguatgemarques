@@ -1,0 +1,11 @@
+<!ELEMENT Empresa (Empleado*)>
+<!ELEMENT Empleado (Apellido+ ,Nombre,NumEmpleado, (Email,Telefono)? ,Direccion)>
+<!ELEMENT Apellido (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT NumEmpleado (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Telefono (#PCDATA)>
+<!ELEMENT Direccion (Calle, Ciudad, CP)>
+<!ELEMENT Calle (#PCDATA)>
+<!ELEMENT Ciudad (#PCDATA)>
+<!ELEMENT CP (#PCDATA)>

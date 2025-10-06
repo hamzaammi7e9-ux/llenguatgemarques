@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE matricula SYSTEM "matricula.dtd">
+<matricula>
+    <ciclo>DAM</ciclo>
+    <alumnos>
+        <alumno>
+            <nombre>Juan</nombre>
+            <year>2025</year>
+            <asignaturas>
+                <asignatura>base de datos</asignatura>
+                <asignatura>programación</asignatura>
+            </asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Marcos</nombre>
+            <year>2025</year>
+            <asignaturas>
+                <asignatura>base de datos</asignatura>
+                <asignatura>programación</asignatura>
+            </asignaturas>
+        </alumno>
+    </alumnos>
+</matricula>

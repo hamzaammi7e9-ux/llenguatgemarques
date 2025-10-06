@@ -1,0 +1,2 @@
+<!ELEMENT libreria (libro+)>
+<!ELEMENT libro (#PCDATA)>

@@ -6,6 +6,7 @@
       <Nombre>Juan</Nombre>
       <NumEmpleado>1234567890</NumEmpleado>
       <Email>juanperez@gmail.com</Email>
+      <Telefono>642032543</Telefono>
       <Direccion>
         <Calle>Carrer de Pau Claris, 121</Calle>
         <Ciudad>Barcelona</Ciudad>
