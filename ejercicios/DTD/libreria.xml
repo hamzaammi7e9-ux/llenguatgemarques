@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE libreria [
-<!ELEMENT libreria (libro+)>
+<!ELEMENT libreria (libro+, ticket)>
 <!ELEMENT libro (#PCDATA)>
+<!ELEMENT ticket (#PCDATA)>
 <!ATTLIST libro ISBN ID #REQUIRED>
 <!ATTLIST libro titulo CDATA #REQUIRED>
+<!ATTLIST ticket ISBN IDREFS #REQUIRED>
 ]>
 <libreria>
-	<libro ISBN="A9788497592581" titulo="El origen de las especies"/>
-  	<libro ISBN="A978849759251" titulo="La Celestina"/>
+	<libro ISBN="A988497592581" titulo="El origen de las especies"/>
+  	<libro ISBN="A97884975925" titulo="La Celestina"/>
   	<libro ISBN="A8481301264" titulo="El nombre de la Rosa"/>
+	<ticket ISBN="A8481301264 A97884975925"></ticket>
 </libreria>
