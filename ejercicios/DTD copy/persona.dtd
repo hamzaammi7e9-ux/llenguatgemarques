@@ -1,8 +1,0 @@
-<!ELEMENT persona (nombre, mujer, fecha_de_nacimiento, ciudad)>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT mujer EMPTY>
-<!ELEMENT fecha_de_nacimiento (dia, mes, anyo)>
-<!ELEMENT dia (#PCDATA)>
-<!ELEMENT mes (#PCDATA)>
-<!ELEMENT anyo (#PCDATA)>
-<!ELEMENT ciudad (#PCDATA)>
