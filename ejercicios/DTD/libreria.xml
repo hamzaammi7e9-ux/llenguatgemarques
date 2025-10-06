@@ -4,7 +4,6 @@
 <!ELEMENT libro (#PCDATA)>
 <!ATTLIST libro ISBN ID #REQUIRED>
 <!ATTLIST libro titulo CDATA #REQUIRED>
-
 ]>
 <libreria>
 	<libro ISBN="A9788497592581" titulo="El origen de las especies"/>
