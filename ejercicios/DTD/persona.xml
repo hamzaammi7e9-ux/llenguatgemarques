@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejercicio4-->
 <!DOCTYPE persona [
-<!ELEMENT persona (nombre, mujer, fecha_de_nacimiento, ciudad)>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT mujer EMPTY>
-<!ELEMENT fecha_de_nacimiento (dia, mes, anyo)>
-<!ELEMENT dia (#PCDATA)>
-<!ELEMENT mes (#PCDATA)>
-<!ELEMENT anyo (#PCDATA)>
-<!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT persona (nombre, mujer, fecha_de_nacimiento, ciudad)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT mujer EMPTY>
+    <!ELEMENT fecha_de_nacimiento EMPTY>
+    <!ATTLIST fecha_de_nacimiento
+        dia CDATA #REQUIRED
+        mes CDATA #REQUIRED
+        anyo CDATA #FIXED "2000">
+    <!ELEMENT ciudad (#PCDATA)>
 ]>
 <persona>
-    <nombre>Pablo</nombre>
-    <mujer></mujer>
-    <fecha_de_nacimiento>
-        <dia>2</dia>
-        <mes>12</mes>
-        <anyo>2001</anyo>    
-    </fecha_de_nacimiento>
-    <ciudad>Barcelona</ciudad>
+    <nombre>Juan Pérez</nombre>
+    <mujer />
+    <fecha_de_nacimiento dia="15" mes="04" />
+    <ciudad>Sevilla</ciudad>
 </persona>

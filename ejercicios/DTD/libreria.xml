@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejercicio 6 i 6.2-->
 <!DOCTYPE libreria [
-<!ELEMENT libreria (libro+, ticket)>
-<!ELEMENT libro (#PCDATA)>
-<!ELEMENT ticket (#PCDATA)>
-<!ATTLIST libro ISBN ID #REQUIRED>
-<!ATTLIST libro titulo CDATA #REQUIRED>
-<!ATTLIST ticket ISBN IDREFS #REQUIRED>
+  <!ELEMENT libreria (libro+, ticket)>
+  <!ELEMENT libro EMPTY>
+  <!ATTLIST libro
+    ISBN ID #REQUIRED
+    titulo CDATA #REQUIRED>
+
+  <!ELEMENT ticket EMPTY>
+  <!ATTLIST ticket
+    referencias IDREFS #REQUIRED>
 ]>
+
 <libreria>
-	<libro ISBN="A988497592581" titulo="El origen de las especies"/>
-  	<libro ISBN="A97884975925" titulo="La Celestina"/>
-  	<libro ISBN="A8481301264" titulo="El nombre de la Rosa"/>
-	<ticket ISBN="A8481301264 A97884975925"></ticket>
+  <libro ISBN="A9788497592581" titulo="El origen de las especies"/>
+  <libro ISBN="A9788497595251" titulo="La Celestina"/>
+  <libro ISBN="A8481301264" titulo="El nombre de la Rosa"/>
+  <ticket referencias="A9788497592581 A8481301264"/>
 </libreria>

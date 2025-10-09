@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejercicio5-->
+<!DOCTYPE empleados [
+  <!ELEMENT empleados (empleado+)>
+  <!ELEMENT empleado (nombre, direccion)>
+  <!ATTLIST empleado NumEmpleado CDATA #REQUIRED>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT direccion EMPTY>
+  <!ATTLIST direccion
+    Calle CDATA #REQUIRED
+    CP CDATA #REQUIRED
+    Ciudad CDATA #IMPLIED>
+]>
+<empleados>
+  <empleado NumEmpleado="001">
+    <nombre>María García</nombre>
+    <direccion Calle="C/ Mayor 12" CP="28013" Ciudad="Madrid" />
+  </empleado>
+
+  <empleado NumEmpleado="002">
+    <nombre>Carlos López</nombre>
+    <direccion Calle="Av. Libertad 5" CP="41001" />
+  </empleado>
+</empleados>

@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio1-->
 <!DOCTYPE Empresa [
-<!ELEMENT Empresa (Empleado*)>
-<!ELEMENT Empleado (Apellido+ ,Nombre,NumEmpleado,(Email ,Telefono )? ,Direccion)>
-<!ELEMENT Apellido (#PCDATA)>
-<!ELEMENT Nombre (#PCDATA)>
-<!ELEMENT NumEmpleado (#PCDATA)>
-<!ELEMENT Email (#PCDATA)>
-<!ELEMENT Telefono (#PCDATA)>
-<!ELEMENT Direccion (Calle, Ciudad, CP)>
-<!ELEMENT Calle (#PCDATA)>
-<!ELEMENT Ciudad (#PCDATA)>
-<!ELEMENT CP (#PCDATA)>
+  <!ELEMENT Empresa (Empleado*)>
+  <!ELEMENT Empleado (Apellido+ ,Nombre,NumEmpleado,(Email ,Telefono )? ,Direccion)>
+  <!ELEMENT Apellido (#PCDATA)>
+  <!ELEMENT Nombre (#PCDATA)>
+  <!ELEMENT NumEmpleado (#PCDATA)>
+  <!ELEMENT Email (#PCDATA)>
+  <!ELEMENT Telefono (#PCDATA)>
+  <!ELEMENT Direccion (Calle, Ciudad, CP)>
+  <!ELEMENT Calle (#PCDATA)>
+  <!ELEMENT Ciudad (#PCDATA)>
+  <!ELEMENT CP (#PCDATA)>
 ]>
 <Empresa>
-    <Empleado>
-      <Apellido>Perez</Apellido>
-      <Apellido>Gomez</Apellido>
-      <Nombre>Juan</Nombre>
-      <NumEmpleado>1234567890</NumEmpleado>
-      <Email>juanperez@gmail.com</Email>
-      <Telefono>642032543</Telefono>
-      <Direccion>
-        <Calle>Carrer de Pau Claris, 121</Calle>
-        <Ciudad>Barcelona</Ciudad>
-        <CP>08009</CP>
-      </Direccion>  
-    </Empleado>
-  </Empresa>
+  <Empleado>
+    <Apellido>Perez</Apellido>
+    <Apellido>Gomez</Apellido>
+    <Nombre>Juan</Nombre>
+    <NumEmpleado>1234567890</NumEmpleado>
+    <Email>juanperez@gmail.com</Email>
+    <Telefono>642032543</Telefono>
+    <Direccion>
+      <Calle>Carrer de Pau Claris, 121</Calle>
+      <Ciudad>Barcelona</Ciudad>
+      <CP>08009</CP>
+    </Direccion>
+  </Empleado>
+</Empresa>
