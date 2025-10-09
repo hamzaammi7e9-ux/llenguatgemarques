@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejercicio 9.2-->
 <!DOCTYPE carnet SYSTEM "carnet.dtd">
 <carnet>
   <persona nombre="Ana" telefono="600987654"/>
