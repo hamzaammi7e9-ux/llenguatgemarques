@@ -2,19 +2,73 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<form>
-    <label for="titulo">Título</label>
-    <input type="text" id="titulo" name="titulo" ><br>
-    <label for="Director">Director</label>
-    <input type="text" id="Director" name="director" ><br>
-    <label for="fecha">Fecha de estreno:</label>
-    <input type="date" id="fecha" name="fecha" value="dd/ mm / aaaa"><br>
-    <label for="version">Versión</label><br>
-    <input type="checkbox" id="vers" name="titulo" value="titulo"><br>
-</form>
 
 <body>
-
+    <section name="Ficha de la película">
+        <fieldset>
+            <legend>Ficha de la película</legend>
+            <form>
+                <label for="titulo">Título</label>
+                <input type="text" id="titulo" name="titulo"><br>
+                <label for="Director">Director</label>
+                <input type="text" id="Director" name="director"><br>
+                <label for="fecha">Fecha de estreno:</label>
+                <input type="date" id="fecha" name="fecha" value="dd/ mm / aaaa"><br>
+                <label for="checklist1">Versión:</label><br>
+                <label for="checkbox1">IMAX</label>
+                <input type="checkbox" id="checkbox1" name="IMAX">
+                <label for="checkbox2">3D</label>
+                <input type="checkbox" id="checkbox2" name="3D">
+                <label for="checkbox3">Full HD</label>
+                <input type="checkbox" id="checkbox3" name="Full HD"><br>
+                <label for="checklist2">Clasificación</label><br>
+                <label for="checkbox4">TP</label>
+                <input type="checkbox" id="checkbox4" name="TP">
+                <label for="checkbox5">+12</label>
+                <input type="checkbox" id="checkbox5" name="+12">
+                <label for="checkbox6">+15</label>
+                <input type="checkbox" id="checkbox6" name="+15">
+                <label for="checkbox7">+18</label>
+                <input type="checkbox" id="checkbox7" name="+18">
+            </form>
+        </fieldset>
+    </section>
+    <section name="Ficha de proyección">
+        <fieldset>
+            <legend>Ficha de la proyección</legend>
+            <form>
+                <label for="salas">Salas:</label>
+                <input list="salas" name="salas" id="salas1">
+                <datalist id="salas">
+                    <option value="Cines Yelmo"></option>
+                    <option value="Cinesa"></option>
+                    <option value="Cines Full HD"></option>
+                </datalist><br>
+                <textarea id=sinopsis name=sinopsis rows="10" cols="70"
+                    placeholder="Escribe una breve sinopsis"></textarea><br>
+                <select name="Idioma" id="idiomas">
+                    <option value="Inglés">Inglés</option>
+                    <option value="Español">Español</option>
+                    <option value="Catalán">Catalán</option>
+                </select><br>
+                <label for="dias_proyeccion">Días de proyección</label><br>
+                <input list="dias_proyeccion" name="dias_proyeccion" id="lista2">
+                <datalist id="dias_proyeccion">
+                <option>Lunes</option>
+                <option>Martes</option>
+                <option>Miércoles</option>
+                <option>Jueves</option>
+                <option>Viernes</option>
+                <option>Sábado</option>
+                <option>Domingo</option>
+                </datalist><br>
+                <label for="colores">Elige un color de fondo:</label>
+            </form>
+        </fieldset>
+    </section>
 </body>
+
 </html>
