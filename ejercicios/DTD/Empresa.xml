@@ -15,7 +15,7 @@
 ]>
 <Empresa>
   <Empleado>
-    <Apellido>Perez</Apellido>
+    <Apellido>&quot;Perez&quot;</Apellido>
     <Apellido>Gomez</Apellido>
     <Nombre>Juan</Nombre>
     <NumEmpleado>1234567890</NumEmpleado>
